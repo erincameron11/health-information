@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+img {
+    
+    margin: 20px;
+}
+
+#patient-data {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-header {
+    font-weight: bold;
+}
+
+#patient-data td, #patient-data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#patient-data tr:nth-child(even){background-color: #f2f2f2;}
+
+#patient-data tr:hover {background-color: #ddd;}

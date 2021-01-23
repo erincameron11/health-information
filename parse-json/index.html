@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 
+    <link rel="icon" href="medicine.png" type="image/icon">
     <title>RecoverME Health</title>
 </head>
 <body>
-    <h1>Patient Health Data</h1>
-    <table>
+    <div class="title">
+        <img src="medicine.png" alt="RecoverME Health Logo" height="60px">
+        <h1>PATIENT HEALTH INFORMATION</h1>
+    </div>
+
+    <table id="patient-data">
         <tr>
-            <td>Patient Name</td>
+            <td id="table-header">Patient Name</td>
             <td id="name"></td>
         </tr>
         <tr>
-            <td>Organization</td>
+            <td id="table-header">Organization</td>
             <td id="organization"></td>
         </tr>
         <tr>
-            <td>Gender</td>
+            <td id="table-header">Gender</td>
             <td id="gender"></td>
         </tr>
         <tr>
-            <td>Number of Conditions</td>
+            <td id="table-header">Number of Conditions</td>
             <td id="numberConditions"></td>
         </tr>
         <tr>
-            <td>List of Conditions</td>
+            <td id="table-header">List of Conditions</td>
             <td id="conditions"></td>
         </tr>
     </table>
