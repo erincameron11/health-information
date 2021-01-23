@@ -21,7 +21,7 @@ To view the application in a browser type the following into the URL: `localhost
 
 ---
 
-## Unit Testing
+# Unit Testing
 * All unit tests are contained with the file `index.test.js`.
 * The file `index.test.js` contains an outline of each unit test performed, expected result, and suggested code improvements to the initial function to accommodate numbers that are multiples of both 3 and 5.
 
