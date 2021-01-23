@@ -1,7 +1,10 @@
-# Health Information
-### Parsing JSON data and outputting in HTML
+### Follow the instructions below to guide you through both Assignment questions "Unit Testing" and "Parse JSON into HTML"
 
-## Setup:
+
+# Parsing JSON data and outputting in HTML
+The file `patient.json` has been correctly formatted prior to this portion of the assignment.
+
+### Setup:
 Clone this github repo in your terminal & navigate to the folder `parse-json`
 
 Install npm with command: `npm install`
@@ -14,15 +17,15 @@ To view the application in a browser type the following into the URL: `localhost
 
 ---
 
-# Unit Testing
+## Unit Testing
 All unit tests are contained with the file `index.test.js`.
 
-## Setup
+### Setup
 Clone this github repo in your terminal & navigate to the folder `unit-test`
 
 Install npm: `npm install`
 
 Install jest to perform the unit tests locally: `npm install --save-dev jest`
 
-## Run the tests locally
+### Run the tests locally
 Run the command: `npm test`
