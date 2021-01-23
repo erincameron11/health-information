@@ -15,7 +15,7 @@ Once python3 has been downloaded, serve the application via python's SimpleHTTPS
 
 To view the application in a browser type the following into the URL: `localhost:8000/index.html`
 
-    >Reference: Medical Cross Icon made by https://www.freepik.com Freepik from www.flaticon.com
+    Reference: Medical Cross Icon made by https://www.freepik.com Freepik from www.flaticon.com
 
 ---
 
