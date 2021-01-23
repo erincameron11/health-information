@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RecoverME Health</title>
+</head>
+<body>
+    <h1>Patient Health Data</h1>
+    <table>
+        <tr>
+            <td>Patient Name</td>
+            <td id="name"></td>
+        </tr>
+        <tr>
+            <td>Organization</td>
+            <td id="organization"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td id="gender"></td>
+        </tr>
+        <tr>
+            <td>Number of Conditions</td>
+            <td id="numberConditions"></td>
+        </tr>
+        <tr>
+            <td>List of Conditions</td>
+            <td id="conditions"></td>
+        </tr>
+    </table>
+
+    <script>
+        fetch('patient.json')
+            .then(response => response.json())
+            .then()
+            .then(data => {
+                document.querySelector('#name').innerText = data.name[0].given + ' ' + data.name[0].family;
+                document.querySelector('#organization').innerText = data.managingOrganization.display;
+                document.querySelector('#gender').innerText = data.gender;
+                document.querySelector('#numberConditions').innerText = data.conditions.length;
+                document.querySelector('#conditions').innerHTML = data.conditions.toString().replace(/[,]+/g, ", ");
+                // Alternative formatting, where each Condition is printed on it's own line
+                // document.querySelector('#conditions').innerHTML = data.conditions.toString().replace(/[,]+/g, "<br />");
+            })
+    </script>
+</body>
+</html>
