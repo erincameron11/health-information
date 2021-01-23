@@ -1,7 +1,7 @@
 ### Follow the instructions below to guide you through both Assignment questions "Unit Testing" and "Parse JSON into HTML"
 
 
-# Parsing JSON data and outputting in HTML
+# Parse JSON data and output into HTML
 The file `patient.json` has been correctly formatted prior to this portion of the assignment.
 
 ### Setup:
@@ -18,7 +18,8 @@ To view the application in a browser type the following into the URL: `localhost
 ---
 
 ## Unit Testing
-All unit tests are contained with the file `index.test.js`.
+* All unit tests are contained with the file `index.test.js`.
+* The file `index.test.js` contains an outline of each unit test performed, expected result, and suggested code improvements to the initial function to accommodate numbers that are multiples of both 3 and 5.
 
 ### Setup
 Clone this github repo in your terminal & navigate to the folder `unit-test`
