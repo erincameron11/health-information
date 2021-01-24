@@ -3,14 +3,13 @@
 ---
 
 # 1) JSON Formatting of patient.json
-
 * Visit URL `https://github.com/erincameron11/health-information/commit/bf5b7a7651f2cca9b0ec092a9855179756286197` to view the commit history of the `patient.json` file with a comparison of syntax that was changed.
 * This can also be accessed through `https://github.com/erincameron11/health-information` > `json_formatting` folder > `patient.json` file > click on `Latest Commit`
 
 ---
 
 # 2) Parse JSON data and output into HTML
-The file `patient.json` has been correctly formatted prior to this portion of the assignment.
+* The file `patient.json` has been correctly formatted prior to this portion of the assignment.
 
 ### Setup:
 1. Clone this github repo in your terminal
@@ -20,7 +19,7 @@ The file `patient.json` has been correctly formatted prior to this portion of th
 3. Install npm with command: `npm install`
     * If you do not have npm installed, first download nodejs: `https://nodejs.org/en/download/`. To check if you have it installed type command `node -v`
 
-4. Install python by visiting <a href="https://www.python.org/downloads/">python's site here</a> to download. 
+4. Install python3 by visiting <a href="https://www.python.org/downloads/">python's site here</a> to download. 
     * To check if you have installed it correctly use command `python3 -version` on Mac, and `python --version` on Windows
 
 5. Once python3 has been downloaded, serve the application via python's SimpleHTTPServer module with command: `python3 -m http.server 8000` in your terminal
