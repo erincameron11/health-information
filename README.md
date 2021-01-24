@@ -11,7 +11,7 @@
 # 2) Parse JSON data and output into HTML
 * The file `patient.json` has been correctly formatted prior to this portion of the assignment.
 
-### Setup:
+### Installation & Dependencies:
 1. Clone this github repo in your terminal
 
 2. Navigate to the folder `parse-json` in your terminal
@@ -22,7 +22,8 @@
 4. Install python3 by visiting <a href="https://www.python.org/downloads/">python's site here</a> to download. 
     * To check if you have installed it correctly use command `python3 -version` on Mac, and `python --version` on Windows
 
-5. Once python3 has been downloaded, serve the application via python's SimpleHTTPServer module with command: `python3 -m http.server 8000` in your terminal
+### Run:
+5. Once python3 has been downloaded, serve the application via python's SimpleHTTPServer module with command: `python3 -m http.server 8000` for Mac and `python -m http.server 8000` for Windows
 
 6. To view the application in a browser type the following into the URL: `localhost:8000/index.html`
 
@@ -34,7 +35,7 @@
 * All unit tests are contained with the file `index.test.js`.
 * The file `index.test.js` contains an outline of each unit test performed, expected result, and suggested code improvements to the initial function to accommodate numbers that are multiples of both 3 and 5.
 
-### Setup
+### Installation & Dependencies:
 1. Clone this github repo in your terminal
 
 2. Navigate to the folder `unit-test`
@@ -44,4 +45,5 @@
 
 4. Install jest to perform the unit tests locally: `npm install --save-dev jest` in your terminal
 
+### Run: 
 5. To run the test locally, perform the command: `npm test` in your terminal
