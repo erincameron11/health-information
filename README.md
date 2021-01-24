@@ -1,7 +1,7 @@
 ### Follow the instructions below to guide you through both Assignment questions "Unit Testing" and "Parse JSON into HTML"
 
 # JSON Formatting of patient.json
-* Visit URL `https://github.com/erincameron11/health-information/commit/b5099824174e9400a4bda78bf51f052eb0a134f4` to view the commit history of the `patient.json` file with a comparison of syntax that was changed.
+* Visit URL `https://github.com/erincameron11/health-information/commit/bf5b7a7651f2cca9b0ec092a9855179756286197` to view the commit history of the `patient.json` file with a comparison of syntax that was changed.
 * This can also be accessed through `https://github.com/erincameron11/health-information` > `json_formatting` folder > `patient.json` file > click on `Latest Commit`
 
 # Parse JSON data and output into HTML
