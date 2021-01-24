@@ -2,7 +2,7 @@
 
 # JSON Formatting of patient.json
 * Visit URL `https://github.com/erincameron11/health-information/commit/b5099824174e9400a4bda78bf51f052eb0a134f4` to view the commit history of the `patient.json` file with a comparison of syntax that was changed.
-* This can also be accessed through `https://github.com/erincameron11/health-information` > `json_formatting` folder > `patient.json` file > click on `Latest Commit b509982`
+* This can also be accessed through `https://github.com/erincameron11/health-information` > `json_formatting` folder > `patient.json` file > click on `Latest Commit`
 
 # Parse JSON data and output into HTML
 The file `patient.json` has been correctly formatted prior to this portion of the assignment.
